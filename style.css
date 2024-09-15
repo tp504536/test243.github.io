@@ -1,14 +1,12 @@
 body {
     font-family:Montserrat, sans-serif;
     font-weight:200;
-    color: var(--tg-theme-color);
-    background-color: var(--tg-theme-color);
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
 }
 
-
-img{ width: 20%;
-    height: 20%;
-}
+img{ width: 70px;
+    margin:30px auto;}
 
 button {
     border: o;
