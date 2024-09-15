@@ -4,7 +4,8 @@ body {
     color: var(--tg-theme-color);
     background-color: var(--tg-theme-color);
 }
-
+img{ width: 20%;
+    height: 20%;}
 button {
     border: o;
     border-radius: 5px;
