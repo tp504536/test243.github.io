@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -31,7 +31,7 @@
         buy.addEventListener('click', () => {
             document.getElementById('main').style.display="none";
             document.getElementById('form').style.display="block";
-            document.getElementById('name').value= tg.initDataUnsafe.user.firstName + " " + tg.initDataUnsafe.user.lastName;
+            document.getElementById('name').value= tg.initDataUnsafe().user.firstName + " " + tg.initDataUnsafe().user.lastName;
         });
         order.addEventListener('click', () => {
             tg.close();
